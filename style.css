@@ -1,0 +1,186 @@
+/* General Styles */
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url("/Group3.png") no-repeat repeat-y;
+    background-size: auto;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Navbar Styles */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation {
+    background-color: #3d0066;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 70%;
+    padding: 1%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-bar {
+    width: 20%;
+    text-align: right;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 80%;
+}
+
+/* Hero Image Styles */
+.heroImg {
+    padding: 25px;
+    background: url("./Group3.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh - 50px); /* Adjusted height to fill remaining screen */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 50px; /* Add some padding at the top */
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 1.5em;
+    margin: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content .intro-text {
+    font-size: 1.2em;
+    margin-top: 100px; /* Add margin-top to move it down */
+    margin-bottom: 0%; /* Adjust the margin as needed */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px; /* Adjust the margin to move the cards down */
+}
+
+.card {
+    background-color: #3d0066;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #5a00a7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3d0066;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:center;
+    justify-content: center;
+}
+
+footer ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    margin: 0 20px;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
